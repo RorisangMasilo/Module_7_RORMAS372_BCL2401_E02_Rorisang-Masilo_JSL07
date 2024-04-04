@@ -30,9 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
     <p>This is to certify that</p>
       <h3>${studentName}</h3>
       <p>has almost completed the ${courseName} with legendary perservance and world-class bad-assery for never giving up. 🏆</p>
-      <img src="logo.png" alt="" style="margin-top: 18px; max-height: auto">
+      <img src="logo.png" alt="" style="margin-top: 20px; max-height: 80px">
       <p>${personalMessage}</p>
-
     `;
 
     //  Display the modal
@@ -45,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //  🚨 Close the modal when the close button is clicked
-  closeModal("", function () {
+  closeModal("click", function () {
     modal.style.display = "none";
   });
 });
