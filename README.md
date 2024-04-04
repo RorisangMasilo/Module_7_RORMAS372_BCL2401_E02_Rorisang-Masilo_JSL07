@@ -25,6 +25,6 @@ Create a personalized certificate of achievement with the "Proud of Your Progres
 - **New Focus:** I would like to focus on would be the innerHTML syntax along with the template literals.
 - **Commits:** Improve my commit messages, to track everything and communicate changes efficiently.
 
-### Overall Leaarning Experience
+### Overall Learning Experience
 
 Overall learning experience has been a bit more positive, the ability to read code and understand what the code may need and interpret code better.
