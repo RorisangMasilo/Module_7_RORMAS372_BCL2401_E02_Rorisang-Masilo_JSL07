@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 🚨 Get input values
     const studentNameInput = document.getElementById("studentName");
     const personalMessageInput = document.getElementById("personalMessage");
-    const courseNameInput = document.getElementByIs("courseName");
+    const courseNameInput = document.getElementById("courseName");
 
     const studentName = studentNameInput.value;
     const personalMessage = personalMessageInput.value;
@@ -27,12 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // 🚨 Generate certificate content dynamically
     certificateContent.innerHTML = `
     <h2>Certificate of Achievement</h2>
-    <p>This is to certify that</p>
+    <p>This is to certify that </p>
       <h3>${studentName}</h3>
       <p>has almost completed the </p>
-      <h3>${courseName} Course<h3>
+      <h3>${courseName} Course</h3>
       </p>with legendary perservance and world-class bad-assery for never giving up. 🏆</p>
-      <img src="./logo.png" alt="" style="margin-top: 20px; max-height: 80px">
+      <img src="./logo.png" alt="Seal" style="margin-top: 20px; max-height: 100px">
       <p>${personalMessage}</p>
     `;
 
